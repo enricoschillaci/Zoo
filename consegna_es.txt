@@ -1,4 +1,5 @@
-A partire dalla classe Zoo costruire le classi che rappresentano alcune specie animali a vostra scelta. Dichiarare nella classe Animale tutti i metodi e gli attributi che si ritengono necessari, e poi creare nelle altre classi tutti gli opportuni override o costruttori, in modo che nella classe Zoo sia possibile per ciascun animale presentarsi utilizzando metodi della classe Animale, oltre ad ogni altra funzione che si ritenga interessante da implementare.
+A partire dalla classe Zoo costruire le classi che rappresentano alcune specie animali a vostra scelta. Dichiarare nella classe Animale tutti i metodi e gli attributi che si ritengono necessari, 
+e poi creare nelle altre classi tutti gli opportuni override o costruttori, in modo che nella classe Zoo sia possibile per ciascun animale presentarsi utilizzando metodi della classe Animale, oltre ad ogni altra funzione che si ritenga interessante da implementare.
 public class Zoo {
 	private final static int DIM = 2;
 	public static void main(String[] args) {
