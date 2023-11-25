@@ -1,0 +1,23 @@
+A partire dalla classe Zoo costruire le classi che rappresentano alcune specie animali a vostra scelta. Dichiarare nella classe Animale tutti i metodi e gli attributi che si ritengono necessari, e poi creare nelle altre classi tutti gli opportuni override o costruttori, in modo che nella classe Zoo sia possibile per ciascun animale presentarsi utilizzando metodi della classe Animale, oltre ad ogni altra funzione che si ritenga interessante da implementare.
+public class Zoo {
+	private final static int DIM = 2;
+	public static void main(String[] args) {
+		// Questo è il metodo principale dello zoo.
+		Animale[] zoo = new Animale[DIM];
+		popolaZoo(zoo);
+		//Facciamo parlare gli animali
+		for (int i=0; i<DIM; i++) {
+			zoo[i].presentati();
+		}
+	}
+	private static void popolaZoo(Animale[] zoo) {
+		zoo[0] = new Mucca("Lola");
+		zoo[1] = new Zebra("Zeb");
+	}
+}
+
+CONTEST: committare i file nel vostro branch nel progetto “https://github.com/Einaudi-Montebelluna/2023-24-4Cinf-Informatica.git”. Tra tutti i gruppi che avranno committato entro mercoledì 29 novembre 2023 alle ore 23.59 il lavoro migliore riceverà un bonus di 1 punto per i membri del gruppo, da aggiungere al prossimo voto di laboratorio. Saranno valutati:
+complessità (max 4 pti)
+correttezza (max 3 pti)
+pulizia del codice (max 2 pti)
+comprensibilità del codice (max 2 pti). Su questo punto saranno valutati positivamente l’utilizzo di nomi parlanti, e la presenza di commenti che chiariscano il funzionamento dei metodi
