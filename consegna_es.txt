@@ -18,7 +18,8 @@ public class Zoo {
 	}
 }
 
-CONTEST: committare i file nel vostro branch nel progetto “https://github.com/Einaudi-Montebelluna/2023-24-4Cinf-Informatica.git”. Tra tutti i gruppi che avranno committato entro mercoledì 29 novembre 2023 alle ore 23.59 il lavoro migliore riceverà un bonus di 1 punto per i membri del gruppo, da aggiungere al prossimo voto di laboratorio. Saranno valutati:
+CONTEST: committare i file nel vostro branch nel progetto “https://github.com/Einaudi-Montebelluna/2023-24-4Cinf-Informatica.git”. Tra tutti i gruppi che avranno committato entro mercoledì 29 novembre 2023 
+alle ore 23.59 il lavoro migliore riceverà un bonus di 1 punto per i membri del gruppo, da aggiungere al prossimo voto di laboratorio. Saranno valutati:
 complessità (max 4 pti)
 correttezza (max 3 pti)
 pulizia del codice (max 2 pti)
