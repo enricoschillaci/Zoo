@@ -1,5 +1,5 @@
 public class Ragno extends Invertebrati {
-     public Polpo(String s, int zampe, float p, int l) {
+     public Ragno(String s, int zampe, float p, int l) {
           nome=s;
           nZampe=zampe;
           peso=p;
