@@ -1,4 +1,4 @@
-public class Salmone extends AcquaDolcie {
+public class Salmone extends AcquaDolce {
      public Salmone(String s, float p, int l) {
           nome=s;
           nZampe=0;
