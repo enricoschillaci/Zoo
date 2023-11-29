@@ -5,5 +5,6 @@ public class Gufo extends Uccelli {
           peso=p;
           altezza=l;
           alimentazione="Onnivoro";
+          specie="gufo";
      }
 }

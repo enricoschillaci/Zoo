@@ -9,6 +9,7 @@ public class Ragno extends Invertebrati {
           isAllatta=false;
           isPartorisce=false;
           isOviperi=true;
-          abitat="Boschi";
+          habitat="Boschi";
+          specie="ragno";
      }
 }

@@ -9,6 +9,7 @@ public class Formica extends Invertebrati {
           isAllatta=false;
           isPartorisce=false;
           isOviperi=true;
-          abitat="Terra Ferma";
+          habitat="Terra Ferma";
+          specie="Formica";
      }
 }

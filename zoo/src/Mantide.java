@@ -9,6 +9,7 @@ public class Mantide extends Invertebrati {
           isAllatta=false;
           isPartorisce=false;
           isOviperi=true;
-          abitat="Boschi";
+          habitat="Boschi";
+          specie="mantide";
      }
 }

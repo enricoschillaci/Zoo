@@ -6,5 +6,6 @@ public class Acciuga extends AcquaSalata {
           altezza=l;
           alimentazione="Carnivora";
           isDiurno=true;
+          specie="acciuga";
      }
 }

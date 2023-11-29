@@ -5,5 +5,6 @@ public class Pettirosso extends Diurno {
           peso=p;
           altezza=l;
           alimentazione="Carnivoro";
+          specie="pettirosso";
      }
 }

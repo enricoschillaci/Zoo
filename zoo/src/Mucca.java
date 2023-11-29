@@ -6,6 +6,7 @@ public class Mucca extends Mammifero {
           altezza=l;
           alimentazione="Erbivora";
           isDiurno=true;
-          abitat="Terra ferma";
+          habitat="Terra ferma";
+          specie="mucca";
      }
 }

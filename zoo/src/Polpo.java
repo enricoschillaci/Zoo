@@ -9,6 +9,7 @@ public class Polpo extends Invertebrati {
           isAllatta=false;
           isPartorisce=false;
           isOviperi=true;
-          abitat="Acqua Salata";
+          habitat="Acqua Salata";
+          specie="polpo";
      }
 }
