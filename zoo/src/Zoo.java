@@ -1,6 +1,6 @@
 public class Zoo {
 	//Dimensione del vettore
-	private final static int DIM=11;
+	private final static int DIM=12;
 	public static void main(String[] args) {
 		// Questo è il metodo principale dello zoo.
 		Animale[] zoo=new Animale[DIM];
@@ -24,5 +24,6 @@ public class Zoo {
 		zoo[8]=new Formica("Lillo", 6, 0.01f, 1);
 		zoo[9]=new Ragno("Cristiano", 8, 0.03f, 4);
 		zoo[10]=new Mantide("Francesco", 6, 0.70f, 6);
+		zoo[11]=new Trota("Trotto", 2f, 30);
 	}
 }
