@@ -3,6 +3,6 @@ public class Uccelli extends Vertebrati {
           isPartorisce=false;
           isOviperi=true;
           isAllatta=false;
-          abitat="Terra ferma";
+          abitat="Alberi";
      }
 }

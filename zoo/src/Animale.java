@@ -35,8 +35,13 @@ public class Animale {
 		}
 	
 	    //Compongo la stringa di presentazione dell'animale
-        s=s+"Mi chiamo "+nome+", ho "+nZampe+" zampe e peso "+peso+" kg. Sono alto "+altezza
-        +" cm e la mia alimentazione e' "+alimentazione+sOssa+sAllatta+sPartorisce+sOviperi;
+        if(nZampe!=0) {
+            s=s+"Mi chiamo "+nome+", ho "+nZampe+" zampe e peso "+peso+" kg. Sono alto "+altezza
+            +" cm e la mia alimentazione e' "+alimentazione+sOssa+sAllatta+sPartorisce+sOviperi;
+        } else if(nZampe>=2) {
+            s=s+"Mi chiamo "+nome+", peso "+peso+" kg. Sono alto "+altezza
+            +" cm e la mia alimentazione e' "+alimentazione+sOssa+sAllatta+sPartorisce+sOviperi;
+        }
 
 		//Ritorno la stringa di presentazione
 		return s;

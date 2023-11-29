@@ -1,7 +1,7 @@
 public class Mammifero extends Vertebrati {
      public Mammifero() {
-          isPartorisce=false;
-          isOviperi=true;
-          isAllatta=false;
+          isPartorisce=true;
+          isOviperi=false;
+          isAllatta=true;
      }
 }

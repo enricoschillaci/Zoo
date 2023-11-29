@@ -20,7 +20,7 @@ public class Zoo {
 		zoo[4]=new Salmone("Emanuela", 10.00f, 73);
 		zoo[5]=new Acciuga("Lilla", 0.40f, 12);
 		zoo[6]=new Polpo("Fernando", 8, 8.00f, 12);
-		zoo[7]=new Lumaca("Fernando", 0.05f, 8);
+		zoo[7]=new Lumaca("Pungente", 0.05f, 8);
 		zoo[8]=new Formica("Lillo", 6, 0.01f, 1);
 	}
 }
